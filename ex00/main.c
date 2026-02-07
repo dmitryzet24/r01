@@ -6,7 +6,7 @@
 /*   By: dandrush <dandrush@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/07 13:50:48 by dandrush          #+#    #+#             */
-/*   Updated: 2026/02/07 14:31:47 by dandrush         ###   ########.fr       */
+/*   Updated: 2026/02/07 14:41:15 by dandrush         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,21 @@ int	main(int argc, char **argv)
 //int	validate_input(*str)
 
 
-//if(validate_input(argv[1]) == 0)
+if(!validate_input(argv[1]))
 	{
 		write(1, "Error\n", 6);
 		return (0);
 	}
 
+params = parse_input(argv[1]);
+if (!params)
+{
+	write(1, "Error\n", 6);
+	return (0);
+}
+
 //void	ft_skyscraper(*arr);
 
+free(params);
 return (0);
 }
