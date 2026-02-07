@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_scyscrapper.c                                   :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dandrush <dandrush@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/07 13:50:48 by dandrush          #+#    #+#             */
-/*   Updated: 2026/02/07 14:00:53 by dandrush         ###   ########.fr       */
+/*   Updated: 2026/02/07 14:16:56 by dandrush         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,11 @@ int	main(int argc, char **argv)
 		write(1, "Error\n", 6);
 		return (0);
 	}
-if(validate_input(argv[1]) == 0)
+
+//int	validate_input(*str)
+
+
+//if(validate_input(argv[1]) == 0)
 	{
 		write(1, "Error\n", 6);
 		return (0);
