@@ -11,6 +11,8 @@
 /* ************************************************************************** */
 
 //#include <stdio.h>
+#include "rush01.h"
+
 int	validate_input(char *str)
 {
 	int	i;

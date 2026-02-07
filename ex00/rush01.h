@@ -2,10 +2,12 @@
 # define RUSH01_H
 
 #include <unistd.h>
-#include <stdlid.h>
+#include <stdlib.h>
+#include <stdio.h>
 
-int	validate_input(char *str);
-int	visivel(int·line[N]);
-int	ft_skyscraper(*arr);
+	int	validate_input(char *str);
+int	*parse_input(char *str);
+//int	visivel(int·line[N]);
+//int	ft_skyscraper(*arr);
 
 #endif

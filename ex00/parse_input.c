@@ -6,12 +6,13 @@
 /*   By: dandrush <dandrush@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/07 15:45:26 by dandrush          #+#    #+#             */
-/*   Updated: 2026/02/07 16:12:30 by dandrush         ###   ########.fr       */
+/*   Updated: 2026/02/07 17:22:32 by dandrush         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
+#include "rush01.h"
 
 int	*parse_input(char *str)
 {
